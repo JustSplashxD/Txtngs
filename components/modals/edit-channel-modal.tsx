@@ -66,7 +66,7 @@ export const EditChannelModal = () => {
     resolver: zodResolver(formSchema),
     defaultValues: {
       name: '',
-      type: channel?.type || ChannelType.Text,
+      type: channel?.type || ChannelType.TEXT,
     },
   })
 
